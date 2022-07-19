@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+body {
+    background-image: url(imagenes/fondopagina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+body .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.boton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+@keyframes enviosAnime {
+    0% {
+        background-color: #5aa59f;
+    }
+
+    20% {
+        background-color: #78c2bc;
+    }
+
+    40% {
+        background-color: #96d4cf;
+    }
+
+    60% {
+        background-color: #bcf3ee;
+    }
+
+    80% {
+        background-color: #96d4cf;
+    }
+
+    100% {
+        background-color: #78c2bc;
+    }
+}
+
+.envios {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    animation-name: enviosAnime;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border: 3px dotted black;
+    /*margin: 40px 0px;*/
+    position: center;
+    text-align: center;
+}
+
+.envios h4 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px 0px;
+    color: white;
+}
+
+.envios p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+}
+.row h4 {
+    color: rgb(29, 124, 124);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.cardPrincipal {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    width: 45vh;
+    height: auto;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #111111;
+    border: 2px solid black;
+    height: 30vh;
+    font-size: 18px;
+}
+
+.footer div {
+    color: white;
+}
+
+.footer div a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+}
+
+.footer div h3 {
+    text-align: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.footer div ul {
+    list-style-type: none;
+}
+
+.footer div ul li {
+    display: block;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.piePagina {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+main div div .destacadosLetra {
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+main div .imgCarrusel {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 2rem 0;
+}
+
+main div .imgCarrusel img {
+    height: 35rem;
+}
+
+article div h3 {
+    color: darkcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px grey;
+}
+
+.imgChuli {
+    width: 200px;
+    margin-top: 5px;
+    transition: all 3s;
+    filter: grayscale(100%);
+}
+
+.imgChuli:hover {
+    width: 300px;
+    filter: none;
+}
+
+aside .parrafoChuli {
+    color: darkcyan;
+    border: 1px dotted black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 5px;
+    margin: 25px 15px;
+}
+
+aside .parrafoDestacado {
+    text-shadow: 1px 1px grey;
+    font-size: 25px;
+}
+
+aside .parrafoDestacado2 {
+    font-size: 20px;
+}
+
+aside mark {
+    color: darkcyan;
+    background-color: rgba(73, 71, 71, 0.25);
+}
+
+.table {
+    font-family: sans-serif;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "producto": "Chocotorta",
+        "ingrediente": "dulce de leche + chocolinas",
+        "precio": 3000,
+        "img": "imagenes/tortas clasicas/choco 3.jpg",
+        "id": "idchocotorta"
+    },
+    {
+        "producto": "Cheesecake",
+        "ingrediente": "quesocrema + frutos",
+        "precio": 3000,
+        "img": "imagenes/tortas clasicas/cheescake 2.jpg",
+        "id": "idcheesecake"
+    },
+    {
+        "producto": "Lemon Pie",
+        "ingrediente": "limon",
+        "precio": 2100,
+        "img": "imagenes/tortas clasicas/lemon 1.jpg",
+        "id": "idlemonpie"
+    },
+    {
+        "producto": "Marquise",
+        "ingrediente": "chocolate",
+        "precio": 2800,
+        "img": "imagenes/tortas clasicas/marquise 3.jpg",
+        "id": "idmarquise"
+    }
+]
